@@ -6,6 +6,6 @@
     --blue: #6F7AF1;
     --white: #FFFFFF;
     --grey: #EEEEEE;
-    --black: #000555;
+    --black: #000ccc;
 }
 body {font:300 16px sans-serif; background:var(--grey);}

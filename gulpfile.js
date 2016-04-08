@@ -5,6 +5,10 @@ var myth = require('gulp-myth');
 var uglify = require('gulp-uglify');
 var jshint = require('gulp-jshint');
 var imagemin = require('gulp-imagemin');
+var connect = require('connect');
+var serve = require('serve-static');
+var browsersync = require('browser-sync'); // Added
+
 
 //Styles Taks
 gulp.task('styles', function() {
@@ -41,4 +45,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', gulp.parallel('styles', 'scripts', 'images', 'watch'));
+   gulp.task('default', gulp.parallel('styles', 'scripts', 'images', 'server', 'watch'));
