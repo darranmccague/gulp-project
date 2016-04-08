@@ -1,0 +1,25 @@
+{
+  "name": "gulp-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darranmccague/gulp-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darranmccague/gulp-project/issues"
+  },
+  "homepage": "https://github.com/darranmccague/gulp-project#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-myth": "^1.1.0",
+    "gulp-sass": "^2.2.0"
+  }
+}
